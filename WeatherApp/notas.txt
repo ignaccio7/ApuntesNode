@@ -1,0 +1,20 @@
+en esta aplicacion haremos uso de la api del clima de la pagina 
+https://home.openweathermap.org/
+https://openweathermap.org/api/one-call-3
+https://openweathermap.org/current
+https://openweathermap.org/current#builtin
+https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+
+en donde consultaremos la ubicacion del usuario y devolveremos la informacion del clima
+
+las dependencias que estaremos manejando seran 
+axios para las peticiones http
+y chalk para mostrar la salida en consola de mejor manera al usuario
+
+    npm i -E chalk axios
+
+-> como ejecutaremos nuestra aplicacion
+es colocando 
+    node app.js <ciudad>
+
+para ello haremos uso de la variable global process que tiene la informacion del proceso

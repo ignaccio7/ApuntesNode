@@ -1,0 +1,30 @@
+### GET ping
+GET http://localhost:3000/ping
+
+### GET diaries
+GET http://localhost:3000/api/diaries
+
+### GET diary by id
+GET http://localhost:3000/api/diaries/1
+
+### POST diaries
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+    "date": "2024-01-01",
+    "weather": "rainy",
+    "visibility": "poor",
+    "comment": "Pretty scary flight, I'm glad I'm alive alone"
+}
+
+### POST diaries
+POST http://localhost:3000/api/diaries
+Content-Type: application/json
+
+{
+    "date": true,
+    "weather": "kikos",
+    "visibility": "oh yeah!!",
+    "comment": "Pretty scary flight, I'm glad I'm alive alone"
+}

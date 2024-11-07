@@ -1,0 +1,7 @@
+const ERROR_CODES = {
+  SERVER_ERROR: 0,
+  FIELD_VALIDATION: 1,
+  UNAUTHORIZED: 2
+}
+
+export default ERROR_CODES

@@ -1,0 +1,20 @@
+las librerias que usaremos 
+
+https://www.npmjs.com/package/fs-extra
+fsextra -> este modulo tiene ciertas mejoras respecto al fileSystem nativo de node
+
+https://www.npmjs.com/package/imagemin
+imagemin -> la libreria que nos ayudara para hacer la compresion de las imagenes
+
+https://www.npmjs.com/package/sharp
+sharp -> que es una libreria que nos ayudara junto con imagemin a hacer la compresion o ciertas modificaciones a las imagenes como rotaciones, formato de imagen, etc
+
+npm install -D fs-extra imagemin imagemin-jpegtran imagemin-pngquant imagemin-svgo
+ imagemin-webp imagemin-gifsicle sharp
+
+adicionalmente a todo esto utilizaremos plugins de imagemin que nos ayudaran con la compresion de imagenes
+a los cuales como ejemplo a continuacion les podremos pasar parametros para indicar diferentes opciones al momento de la compresion
+imageminJpegtran({ quality:80 }), // comprimir imagen con calidad del 80%
+imageminSvgo(), // comprimir imagen svg
+imageminWebp({ quality:80 }), // comprimir imagen webp con calidad del 80%
+imageminGifsicle()

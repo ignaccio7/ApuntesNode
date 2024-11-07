@@ -1,0 +1,19 @@
+### GET pagina de inicio
+GET http://localhost:3000/
+
+### POST pagina de users
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Alvaro Rojas",
+    "email": "arg@gmail.com",
+    "password": "123abc"
+}
+
+### GET pagina de users
+GET http://localhost:3000/api/users
+
+
+### GET pagina de users por id
+GET http://localhost:3000/api/users/6632a0d7324856f1f7c2c914
